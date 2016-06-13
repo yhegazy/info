@@ -1,0 +1,20 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>System Information</title>
+        <link type="text/css" href="css/template.css">
+        <link type="text/css" href="css/bootstrap.css">
+    </head>
+    <body id="background">
+        <!--We can use noscript to show that JavaScript is not enabled.-->
+        <div style="color:red">
+            <noscript>What is this, 1999? Enable your JavaScript!</noscript>
+        </div>
+        <div id="sysinfo">
+            <input type="checkbox" id="status" onchange="sysinfo()"><label>Enable System Information</label>  
+        </div>
+        <button onclick="reset()">Disable</button>
+        <script src="sysinfo.js"></script>
+    </body>
+</html>
